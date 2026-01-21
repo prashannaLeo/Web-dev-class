@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fourth- Class</title>
 </head>
-<body>
+<>
     <h1><u>Fourth Class Update</u></h1>
     <div>
         <p>We are learning about Block & Inline elements in HTML.</p>
@@ -19,10 +19,24 @@
         <h3>The<br> New<br> Prime Minister</h3>
         <hr>
     </div>
-    <h2>HTML Form</h2>
+    <h2>Voting Form</h2>
     <form>
-        <label>Name</label>
-        <input type="text">
+    <label>Name</label>
+        <input type="text" placeholder="Your full name" name="user_name"></input><br><br>
+        <label>Email</label>
+        <input type="email" placeholder="example123@gmail.com" name="email"></input><br><br>
+        <label>Location:</label>
+        <select>
+            <option>Select</option>
+            <option>Kathmandu</option>
+            <option>Bhaktapur</option>
+            <option>Lalitpur</option>
+            <option>Baneshowr</option>
+        </select><br><br>
+        <label>Vote:</label>
+        <input type="radio" name="vote">Balendra Shah</input>
+        <input type="radio" name="vote">KP Oli</input><br><br>
+        <button type="submit">Submit</button>
     </form> 
 </body>
 </html>
