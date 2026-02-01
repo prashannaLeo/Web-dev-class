@@ -1,0 +1,7 @@
+   body p {
+       padding: 20px 10px;
+       border: 7px solid black;
+       background: brown;
+       margin-top: 10px;
+       display: inline;
+   }
