@@ -1,7 +1,9 @@
 body {
     font-family: "Noto Sans", "Trebuchet MS", Geneva, sans-serif;
-    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
+}
+body p{
+    font-size: 16px;
 }
