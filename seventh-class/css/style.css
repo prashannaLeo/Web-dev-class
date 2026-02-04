@@ -1,5 +1,4 @@
 
-}
     h1{
         font-weight: bold;
         color:brown;
@@ -16,7 +15,6 @@
         width: 100%;
         object-fit: contain;
         object-position: center;
-}
     }
     div p{
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
