@@ -10,8 +10,11 @@
         padding: 20px;
     }
     div img{
-        margin-left: 22rem;
+        /* margin-left: 22rem; */
         height: 350px;
+        width: 100%;
+        object-fit: contain;
+        object-position: center;
     }
     div p{
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
