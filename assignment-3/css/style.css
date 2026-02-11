@@ -1,0 +1,12 @@
+ .wrapper{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:black;
+  width:600px;
+  height:300px;
+  border-radius:10px;
+}
+.wrapper img{
+  border-radius:10px;
+}
