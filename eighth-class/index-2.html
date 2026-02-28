@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Position fixed</title>
+    </head>
+    <style>
+    .container{
+    display: flex;
+    justify-content:space-between;
+    /* align-items:start; */
+    gap: 10px;
+    color:#fff;
+}
+.box{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.box1,.box2, .box3, .box4, .box5{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+}
+.box1{
+    top:20px;
+    left:20px;
+        background-color: red;
+
+    
+}
+.box2{
+    top:20px;
+    right:20px;
+    background-color: rgb(77, 221, 21);
+
+}
+.box3{
+    bottom:20px;
+    left:20px;
+        background-color: rgb(34, 11, 139);
+
+
+}
+.box4{
+    bottom:20px;
+    right:20px;
+        background-color: rgb(173, 12, 106);
+
+}
+.box5{
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(235, 235, 12);
+}
+    </style>
+    <body>
+        <div class="container">
+
+            <div class="box1 box">Box 1</div>
+
+            <div class="box2 box">Box 2</div>
+
+            <div class="box3 box">Box 3</div>
+
+            <div class="box4 box">Box 4</div>
+            <div class="box5 box">Box 5</div>
+
+        </div>
+    </body>
+</html>

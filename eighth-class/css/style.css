@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height:300vh
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+}
+.box1{
+    background-color: rgb(108, 121, 39);
+}
+.box2 {
+    background-color: gray;
+    height: 50vh;
+}
+.box3 {
+    background-color: rgb(194, 62, 62);
+    height: 100vh;
+}
+.sticky-box1,
+.sticky-box2,
+.sticky-box3 {
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+
+.sticky-box1 {
+    background-color: red;
+}
+
+.sticky-box2 {
+    background-color: green;
+}
+
+.sticky-box3 {
+    background-color: blue;
+}
+
+/* insdex-2 html */
+
