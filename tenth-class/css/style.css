@@ -1,0 +1,49 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    height:500px;
+    width:500px;
+}
+
+.child{
+    position: absolute;
+    background: #ac1e1e;
+    height:200px;
+    width:200px;
+ 
+}
+
+/* video container  */
+
+.video-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    height: 500px;
+    width: 500px
+};
+
+.video-container video{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.play-button {
+    position: absolute;
+}
+.play-button img{
+    background: transparent;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tenth Class</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="child"> </div>
+        </div>
+        <h2>Inserting Video and play button</h2>
+        <div class="video-container">
+            <video src="./assets/tank.mp4" id="tank" height="300px"
+                width="400px">
+
+            </video>
+            <div class="play-button" id="playVideo">
+               <button onclick="playVideo()"><img src="./assets/play-button.svg" height="50px" width=" 50px"
+                    alt="play-button">
+                </button> 
+            </div>
+        </div>
+        <script>
+            const Video = document.getElementById("tank");
+            const playButton= document.getElementById("playVideo");
+            
+            function playVideo(){
+                Video.play();
+                playButton.style.display="none";
+            }
+        </script>
+    </body>
+</html>
