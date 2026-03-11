@@ -27,8 +27,19 @@ if(true){
  console.log("Hoisting in js")
  let a3=5;
  if(true){
-    console.log(a3);
+    // console.log(a3); //hoisting
     let a3=7;
     console.log(a3);
  }
  console.log(a3);
+
+
+//  function in js
+
+function add(x,y){
+    return x+y;
+}
+let num1=5;
+let num2=6
+const result= add(num1,num2);
+console.log("sum function",result);
