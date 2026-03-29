@@ -5,16 +5,24 @@ window.addEventListener('DOMContentLoaded', () => {
     boss.innerText = "Nepal";
     console.log(boss);
 
-    const boxes= document.getElementsByClassName('box');
-    console.log(boxes);
+    // const boxes= document.getElementsByClassName('box');
+    // console.log(boxes);
 
-    for(let i=0; i<boxes.length; i++){
-        // if(i==0){
-            boxes[i].innerText = `This is Box ${i+1}`;
-        // console.log(`Box.no. ${i}`,boxes[i]);
+    // for(let i=0; i<boxes.length; i++){
+    //     // if(i==0){
+    //         boxes[i].innerText = `This is Box ${i+1}`;
+    // console.log(`Box.no. ${i}`,boxes[i]);
     // }
-}
+    // }
     //  [...boxes].forEach(box=> {
     //     console.log(box);
     //  });
+
+    const wrapperbox = document.querySelectorAll('.box');
+
+    wrapperbox.forEach((box, index) => {
+        if (index == wrapperbox.length - 1) {
+            box.innerText = `This is  last wrapper box`;
+        }
+    });
 })
